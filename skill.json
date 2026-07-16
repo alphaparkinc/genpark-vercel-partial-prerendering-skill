@@ -1,0 +1,27 @@
+{
+  "name": "genpark-vercel-partial-prerendering-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Next.js PPR shell splitter.",
+  "author": "genpark",
+  "category": "creative",
+  "tags": [
+    "nextjs",
+    "ppr",
+    "prerendering"
+  ],
+  "inputs": {
+    "page_structure": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "static_shell_components": {
+      "type": "array"
+    },
+    "dynamic_suspense_islands": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
